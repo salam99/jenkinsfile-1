@@ -34,10 +34,10 @@ node {
 
 
 node {
-   stage 'deploy Canary'
+   stage 'Pre-Deploy'
    sh 'echo "write your deploy code here"; sleep 5;'
 
-   stage 'deploy Production'
+   stage 'deploy-in-Production'
    input 'Proceed?'
    sh 'echo "write your deploy code here"; sleep 6;'
    archive 'target/*.jar'
