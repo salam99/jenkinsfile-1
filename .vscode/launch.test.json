@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "jenkinsfile-example",
+                "projectName": "jenkinsfile-example",
+                "workingDirectory": "c:\\Users\\msalam\\jenkinsfile-1",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "jenkinsfile-example",
+                "projectName": "jenkinsfile-example",
+                "workingDirectory": "c:\\Users\\msalam\\jenkinsfile-1",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
